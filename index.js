@@ -44,5 +44,5 @@ io.on('connection', (socket) => {
 });
 const PORT = process.env.PORT || 5000;
 http.listen(PORT, () => {
-  console.log(`Server running on http://192.168.1.9:5000`);
+  console.log(`Server running on port ${PORT}`);
 });
